@@ -1,0 +1,45 @@
+.ttt{
+    background-color: black;
+    width: 400px;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.ttt > div {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 500
+} 
+
+h1 {
+    text-align: center;
+}
+
+.boxes {
+    background-color: grey;
+
+}
+.player-mark {
+    background-color: white;
+    
+}
+
+.ttt > div:hover {
+    cursor: pointer;
+}
+
+.winner {
+    background-color: green;
+    color: white;
+}
+.loser {
+    background-color: white;
+    color: red;
+}
