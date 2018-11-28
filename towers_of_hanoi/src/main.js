@@ -1,7 +1,10 @@
 let HanoiGame = require("./game.js")
+let HanoiView = require("./hanoiView.js")
 
+console.log("HELLO")
 $( () => {
   const rootEl = $('.hanoi');
   const game = new HanoiGame();
-  new HanoiView(game, rootEl);
+  let view = new HanoiView(game, rootEl);
+  view.setUpBoard();
 });

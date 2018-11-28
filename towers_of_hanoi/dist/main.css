@@ -1,3 +1,54 @@
 h1 {
     text-align: center;
 }
+.hanoi {
+    display: flex;
+    justify-content: center;
+}
+.col-1, .col-2, .col-3 {
+    height: 350px;
+    width: 20%;
+    background-color: gray;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 7px;
+}
+.active-underline {
+    background-color: blue;
+    height: 10px;
+}
+
+.underline {
+    height: 10px;
+    background-color: black; 
+}
+
+.level-1 {
+    background-color: blue;
+    height: 60px;
+    width: 100px;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 35px;
+}
+
+.level-2 {
+    background-color: blue;
+    height: 60px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 35px;
+
+}
+
+.level-3 {
+    background-color: blue;
+    height: 60px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 35px;
+
+}
